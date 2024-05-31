@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашняя работа</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <div class="description">
+            <p>Сделать при помощи изменения DOM TODO-приложение со следующим функционалом:</p>
+            <ul>
+                <li>Для добавления задачи используется текстовое поле и кнопка "Добавить"</li>
+                <li>Если текстовое пустое - кнопка "Добавить" заблокирована</li>
+                <li>После нажатия на кнопку "Добавить" создается задача с названием которое было введено в текстовом поле, текстовое поле очищается</li>
+                <li>Задача состоит из названия задачи и чекбокса</li>
+                <li>Если чекбокс активен (в значении true), то текст задачи должен быть зачеркнут</li>
+            </ul>
+            <p>Реализация</p>
+        </div>
+        <div class="task">
+            <div class="row">
+                <input type="text" id="taskInput" placeholder="Название задачи..."> <button id="addButton" class="buttonDec" type="button" disabled>Добавить</button>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="taskSecond.js"></script>
+</html>

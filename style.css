@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app{
+    width: 720px;
+    margin: 135px auto;
+}
+
+.txtDecNo{
+    text-decoration: none;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.buttonDec{
+    width: 125px;
+    height: 22px;
+}
+
+#inputText{
+    height: 22px;
+    font-weight: 700;
+}
+
+#result{
+    visibility: hidden;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.box{
+    width: 320px;
+    height: 128px;
+    background-color: #d4d4d4;
+    border-radius: 15px;
+    color: white;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s;
+}
+
+.box:hover {
+  transform: scale(1.1);
+}
+
+.task{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.taskStyle{
+    color: black;
+    transition: 300ms;
+    border-bottom: 1px solid transparent;
+}
+
+.taskStyle:hover{
+    border-color: green;
+    color: green;
+}
+
+.taskStyle:active{
+    color: blue;
+    border-color: blue;
+}
+
+.taskElement{
+    margin-top: 0px;
+    width: 512px;
+    justify-content: space-between;
+}
